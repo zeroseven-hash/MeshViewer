@@ -5,7 +5,8 @@
 
 
 int main(void)
-    {
+{
+    
     MV::Log::Init();
     MV::Application* app = MV::Application::Create("MeshView");
     MESH_INFO("Welcome to MeshView!");
